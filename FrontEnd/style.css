@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(1, 1, 22, 0.877);
+    font-family: sans-serif;
+}
+h3 {
+
+    color: white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:rgba(1, 1, 22, 0.877) ;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(91, 71, 145);
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.topnav .search-container {
+    float: right;
+    
+
+}
+form {
+    background-color:  rgb(91, 71, 145);
+    width: 300px;
+    height: 60px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    
+}
+
+input {
+    all: unset;
+    font: 17px system-ui;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+}
+.thumbnail {
+   height: 250px;
+   width: 200px;
+   border-radius: 19px;
+   padding: 6px;
+}
+
+.colum {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 10px;
+    text-align: center;
+    background-color: rgba(1, 1, 22, 0.877);
+}
